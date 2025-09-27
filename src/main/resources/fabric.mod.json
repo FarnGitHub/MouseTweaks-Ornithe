@@ -3,10 +3,18 @@
 	"id": "mod_mousetweaks",
 	"version": "${version}",
 	"name": "Mouse Tweaks Ornithe Port",
-	"description": "Inventory mouse dragging and scrolling",
-	"authors": [
-		"Me!"
-	],
+	"description": "Inventory mouse dragging and scrolling (Port of RML 2.7.2)",
+  "authors": [
+    "Ivan Molodetskikh (YaLTeR)",
+    "farnfarn02 "
+  ],
+  "contributors": [
+    "mezz",
+    "juliand665",
+    "panoskj",
+    "FabiClawZ",
+    "ErrorMikey"
+  ],
 	"contact": {
 		"homepage": "https://example.com/",
 		"sources": "https://github.com/OrnitheMC/ornithe-template-mod"
