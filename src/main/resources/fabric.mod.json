@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "mod_mousetweaks",
+	"version": "${version}",
+	"name": "Mouse Tweaks Ornithe Port",
+	"description": "Inventory mouse dragging and scrolling",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://example.com/",
+		"sources": "https://github.com/OrnitheMC/ornithe-template-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "mousetweaks_logo.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"yalter.mousetweaks.OrnitheInit"
+		]
+	},
+	"mixins": [
+    "mousetweak.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "1.0.0-beta.7.3",
+		"osl-entrypoints": ">=0.4.0"
+	}
+}
